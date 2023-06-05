@@ -1,0 +1,23 @@
+{
+  "name": "terrain-gen",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build": "tsc && vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.10",
+    "@types/three": "^0.152.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-glsl": "^1.1.2"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "simplex-noise": "^4.0.1",
+    "three": "^0.152.2"
+  }
+}
